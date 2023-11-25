@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(10, 14, 99);
+    font-family: monospace;
+    color: white;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.round-counter {
+    font-size: 32px;
+}
+
+.options {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.options button {
+    background-color: rgb(76, 76, 214);
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-radius: 3px;
+    padding: 6px 8px;
+    font-family: monospace;
+    flex: auto;
+}
+
+.options button:active {
+    background-color: rgb(49, 49, 176);
+    color: gray;
+    border-color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    flex: auto;
+}
+
+.scores {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-size: 64px;
+}
+
+.score-label {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: space-around;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.game {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 8px;
+
+    font-size: 32px;
+}

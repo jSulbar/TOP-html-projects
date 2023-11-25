@@ -1,0 +1,150 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 24px;
+    padding: 0px 128px;
+}
+
+.header nav {
+    margin-left: auto;
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+}
+
+.header a:any-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hero-container {
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 128px;
+}
+
+.hero {
+    text-align: left;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0px;
+    font-weight: extra-bold;
+}
+
+.hero p {
+    font-size: 18px;
+    /* margin: 0px; */
+}
+
+.hero img {
+    max-width: 50%;
+}
+
+.hero button {
+    padding: 8px 32px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.companyinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #1f2937;
+    padding: 32px 0px 64px 0px;
+}
+
+.companyinfo h2 {
+    margin: 0px 0px 32px 0px;
+    font-size: 36px;
+    font-weight: extra-bold;
+    text-align: center;
+}
+
+.infoimages {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.infoimg {
+    text-align: center;
+    max-width: 150px;
+}
+
+.infoimg img {
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    max-width: inherit;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    margin: auto;
+    padding: 32px 25%;
+}
+
+.testimonial blockquote {
+    text-align: left;
+}
+
+.testimonial cite {
+    display: block;
+    text-align: right;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 32px 15%;
+    border-radius: 8px;
+    padding: 38px 16px;
+}
+
+.signup h3 {
+    margin: 4px 0px;
+}
+
+.signup button {
+    background-color: rgba(0, 0, 0, 0);
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #e5e7eb;
+    border-width: 3px;
+    border-radius: 6px;
+    padding: 8px 32px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: 32px;
+}
+

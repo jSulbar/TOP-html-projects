@@ -1,0 +1,69 @@
+/* I probably don't have to mark this but,
+   TODO: Fix the div that marks the number on the calculator */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(71, 81, 109);
+    
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.calcbody {
+    padding: 16px;    
+    border-radius: 4px;
+    border: 2px solid rgb(112, 191, 255);
+    background-color: rgb(237, 247, 255);
+}
+
+.calcbuttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.calcbutton {
+    border: 1px solid rgb(173, 216, 230);
+    border-radius: 4px;
+    padding: 0.75em 1.1em;
+    background-color: rgba(0, 0, 0, 0);
+}
+.calcbutton:hover {
+    background-color: rgb(0, 115, 255, 0.3);
+    border-color: rgb(61, 93, 142);
+}
+.calcbutton:active {
+    background-color: rgba(0, 115, 255, 0.5);
+    border-color: white;
+    color: white;
+}
+
+.calcinput {
+    border: 1px solid rgb(29, 92, 113);
+    border-radius: 4px;
+    height: 32px;
+    margin: 8px 0px;
+    padding: 0px 4px;
+
+    width: 0px;
+    min-width: 95%;
+    flex: 1 1 auto;
+
+    line-height: 32px;
+    font-size: 28px;
+
+    overflow: scroll;
+    color: white;
+    background-color: rgba(46, 88, 127, 0.5);
+
+    /* Hide scrollbars */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.calcinput::-webkit-scrollbar {
+    display: none;
+}
